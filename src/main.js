@@ -6,10 +6,12 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import './assets/base.css'
+import Dyna from './Dyna.vue'
+//const app = createApp(App)
+const dyna=createApp(Dyna)
 
-const app = createApp(App)
+//app.use(createPinia())
+//app.use(router)
 
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+//app.mount('#app')
+dyna.mount('#app')
