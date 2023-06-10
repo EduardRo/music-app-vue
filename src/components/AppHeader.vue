@@ -32,7 +32,9 @@ export default {
   methods: {
     toggleAuthModal() {
       this.modalStore.isOpen = !this.modalStore.isOpen
+      this.modalStore.numberOf++
       console.log(this.modalStore.isOpen)
+      console.log(this.modalStore.numberOf)
     }
   }
 }
