@@ -27,6 +27,9 @@ import { mapStores } from 'pinia'
 import useModalStore from '../stores/model'
 
 export default {
+  date() {
+    ''
+  },
   name: 'AppHeader',
   computed: { ...mapStores(useModalStore) },
   methods: {
@@ -35,6 +38,9 @@ export default {
       this.modalStore.numberOf++
       console.log(this.modalStore.isOpen)
       console.log(this.modalStore.numberOf)
+    },
+    addName() {
+      this.name = 'hogh'
     }
   }
 }
