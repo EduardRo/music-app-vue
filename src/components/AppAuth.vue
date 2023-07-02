@@ -54,7 +54,7 @@
           </ul>
 
           <!-- Login Form -->
-          <form v-show="tab === 'login'">
+          <vee-form v-show="tab === 'login'">
             <!-- Email -->
             <div class="mb-3">
               <label class="inline-block mb-2">Email</label>
@@ -79,7 +79,7 @@
             >
               Submit
             </button>
-          </form>
+          </vee-form>
           <!-- Registration Form -->
           <div
             class="text-white text-center font-bold p-4 rounded mb-4"
