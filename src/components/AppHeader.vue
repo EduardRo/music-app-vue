@@ -17,6 +17,7 @@
           <li>
             <a class="px-2 text-white" href="#">Manage</a>
           </li>
+          <li>this menu is AppHeader component</li>
         </ul>
       </div>
     </nav>

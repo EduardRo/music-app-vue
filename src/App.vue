@@ -1,5 +1,6 @@
 <template>
   <app-header />
+  <h1>This is app.vue</h1>
   <!-- Introduction -->
   <section class="mb-8 py-20 text-white text-center relative">
     <div
@@ -12,7 +13,7 @@
         <p class="w-full md:w-8/12 mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et dolor mollis, congue
           augue non, venenatis elit. Nunc justo eros, suscipit ac aliquet imperdiet, venenatis et
-          sapien. Duis sed magna pulvinar, fringilla lorem eget, ullamcorper urna.
+          sapien. Duis sed magna pulvinar, fringilla lorem eget, ullamcorper urna this is appvue.
         </p>
       </div>
     </div>
@@ -37,7 +38,7 @@
           class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
         >
           <div>
-            <a href="#" class="font-bold block text-gray-600">Song Title</a>
+            <a href="#" class="font-bold block text-gray-600">Song Title app vue</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
           </div>
 
@@ -217,8 +218,8 @@
           class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
         >
           <div>
-            <a href="#" class="font-bold block text-gray-600">Song Title</a>
-            <span class="text-gray-500 text-sm">Artist Name</span>
+            <a href="#" class="font-bold block text-gray-600">Song Title last</a>
+            <span class="text-gray-500 text-sm">Artist Name last</span>
           </div>
 
           <div class="text-gray-600 text-lg">
